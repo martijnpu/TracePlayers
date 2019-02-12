@@ -1,0 +1,9 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping ext="klib" type="ARCHIVE" />
+      <mapping pattern="main" type="CLASS" />
+      <mapping ext="dat" type="CLASS" />
+    </extensionMap>
+  </component>
+</application>
