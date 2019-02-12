@@ -9,7 +9,7 @@ class FileManager {
 
         try {
             File path = new File(main.get().getDataFolder().getPath());
-            File file = new File(main.get().getDataFolder().getPath() + File.pathSeparator + name + ".csv");
+            File file = new File(main.get().getDataFolder().getPath(), name + ".csv");
             path.mkdirs();
 
             writer = new FileWriter(file);
@@ -35,7 +35,7 @@ class FileManager {
     }
 
     static boolean checkExists(String name){
-        File file = new File(main.get().getDataFolder().getPath() + "\\" + name + ".csv");
+        File file = new File(main.get().getDataFolder().getPath(), name + ".csv");
         return file.exists();
     }
 }
