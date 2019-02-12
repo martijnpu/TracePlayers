@@ -1,0 +1,5 @@
+name: TracePlayers
+version: 1.0-SNAPSHOT
+authors: [martijnpu]
+main: NL.martijnpu.TracePlayers.main
+description: Keeps tracing who's when and where online
